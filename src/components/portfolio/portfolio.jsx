@@ -1,55 +1,55 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.png';
-import IMG2 from '../../assets/portfolio2.png';
-import IMG3 from '../../assets/portfolio3.png';
-import IMG4 from '../../assets/portfolio4.png';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.png';
+import IMG1 from '../../assets/lod-corporate-site.jpg';
+import IMG2 from '../../assets/lod-clothing.jpg';
+import IMG3 from '../../assets/lod-transport.jpg';
+import IMG4 from '../../assets/lod-lion-edge.jpg';
+import IMG5 from '../../assets/shopify-dashboard.jpg';
+import IMG6 from '../../assets/lodcreation.jpg';
 
 const Portfolio = () => {
   const portfolioData = [
     {
       id: 1,
       imageUrl: IMG1,
-      title: 'Lod Transport',
-      github: 'https://github.com',
-      demo: 'https://lodtransport.netlify.app'
+      title: 'Lod Corporate Site',
+      github: 'https://github.com/LoneBeast-hub/corporate_site.git',
+      demo: 'https://lod-corporate-site.netlify.app'
     },
     {
       id: 2,
       imageUrl: IMG2,
       title: 'Lod Clothing',
-      github: 'https://github.com',
+      github: 'https://github.com/LoneBeast-hub/Lod_Clothing.git',
       demo: 'https://lod-clothing.netlify.app'
     },
     {
       id: 3,
       imageUrl: IMG3,
-      title: 'Ferra Store',
-      github: 'https://github.com',
-      demo: 'https://ferra-store.netlify.app'
+      title: 'Lod Transport',
+      github: 'https://github.com/LoneBeast-hub/Lod_transport.git',
+      demo: 'https://lodtransport.netlify.app/'
     },
     {
       id: 4,
       imageUrl: IMG4,
-      title: 'PDS World',
-      github: 'https://github.com',
-      demo: 'https://pdsworld.netlify.app'
+      title: 'Lod Lion Edge',
+      github: 'https://github.com/LoneBeast-hub/lod-lion-enterprise.git',
+      demo: 'https://pdsworld.netlify.apphttps://lod-lion-enterprise.netlify.app/'
     },
     {
       id: 5,
       imageUrl: IMG5,
-      title: 'Wallet Name Generator',
-      github: 'https://github.com',
-      demo: 'https://walletnamegen.netlify.app'
+      title: 'Shopify Dashboard clone',
+      github: 'https://github.com/LoneBeast-hub/shopify-dashboard-challenge.git',
+      demo: 'https://lod-shopify-admin.netlify.app/'
     },
     {
       id: 6,
       imageUrl: IMG6,
-      title: 'Lod Mint Sample',
-      github: 'https://github.com',
-      demo: 'https://lodmintsample.netlify.app'
+      title: 'Lod Creations',
+      github: 'https://github.com/LoneBeast-hub/LodCreations_redo.git',
+      demo: 'https://lodcreations.netlify.app'
     }
   ]
   return (
@@ -67,7 +67,7 @@ const Portfolio = () => {
                 </div>
                 <h3> {title} </h3>
                 <div className="portfolio_item_cta">
-                  <a href={github} className='btn'>Github</a>
+                  <a href={github} target='_blank' rel='noreferrer' className='btn'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live demo</a>
                 </div>
               </article>

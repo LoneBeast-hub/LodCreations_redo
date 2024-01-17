@@ -6,13 +6,13 @@ import { SiUpwork } from 'react-icons/si';
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href='https://linkedin.com' target="_blank" rel='noreferrer'>
+        <a href='https://www.linkedin.com/in/yusuf-oyindamola-b389131bb/' target="_blank" rel='noreferrer'>
             <BsLinkedin />
         </a>
-        <a href='https://github.com' target="_blank" rel='noreferrer'>
+        <a href='https://github.com/LoneBeast-hub' target="_blank" rel='noreferrer'>
             <FaGithub />
         </a>
-        <a href='https://upwork.com' target="_blank" rel='noreferrer'>
+        <a href='https://www.upwork.com/freelancers/~01e9c35dcbdd3f33c2?viewMode=1' target="_blank" rel='noreferrer'>
             <SiUpwork />
         </a>
     </div>
