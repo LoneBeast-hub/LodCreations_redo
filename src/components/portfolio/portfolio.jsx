@@ -7,6 +7,7 @@ import IMG4 from '../../assets/lod-lion-edge.jpg';
 import IMG5 from '../../assets/shopify-dashboard.jpg';
 import IMG6 from '../../assets/lodcreation.jpg';
 import IMG7 from '../../assets/lod-sample-portfolio.jpg';
+import IMG8 from '../../assets/dashboard-challenge.png';
 
 const Portfolio = () => {
   const portfolioData = [
@@ -58,6 +59,13 @@ const Portfolio = () => {
       title: 'Lod Sample Portfolio',
       github: 'https://github.com/LoneBeast-hub/sample-portfolio.git',
       demo: 'https://lod-sample-portfolio.netlify.app/'
+    },
+    {
+      id: 8,
+      imageUrl: IMG8,
+      title: 'Lod Dashboard Challenge',
+      github: 'https://github.com/LoneBeast-hub/lod_dashboard_challenge.git',
+      demo: 'https://lod-dashboard-challenge.netlify.app/'
     }
   ]
   return (
